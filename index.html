@@ -5,27 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        Quiz app - Play
+        Common Quiz app
     </title>
+    <link rel="logo" href="https://img.icons8.com/?size=100&id=103413&format=png&color=000000">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <main>
+        <h2>Common Quiz</h2>
+        <div class="container">
+            <div id="ques-box">What is the dancing pattern of a frog?</div>
+            <ol class="option-box">
+                <li><button class="option-button" id="opt-1">You should know I don</button></li>
+                <li><button class="option-button" id="opt-2">may BB yeonde</button></li>
+                <li><button class="option-button" id="opt-3">Have Mercy God</button></li>
+                <li><button class="option-button" id="opt-4">a big Hallelujah</button></li>
+            </ol>
+            <button class="next-btn hidden">Next =></button>
+            <p> You can do this!</p>
+        </div>
 
-    <div class="app">
-        <h1>Simply Quiz</h1>
-        <div class="quiz">
-            <h2 id="question">Question goes here</h2>
+        <div class="scoreBoard hidden">
+            <h4>Common Quiz finished. Here's your score:</h4>
+            <p class="score-text">You scored 1 out of 5!</p>
+
+            <button class="restart">Play Again</button>
         </div>
-        <div id="answer-buttons">
-            <button class="btn">Answer 1</button>
-            <button class="btn">Answer 2</button>
-            <button class="btn">Answer 3</button>
-            <button class="btn">Answer 4</button>
-        </div>
-        <button id="next-btn">Next</button>
-    </div>
-    <script src="quiz.js"></script>
+
+        <p>&copy; Copyright 2025</p>
+    </main>
 </body>
+<script src="main.js"></script>
 
 </html>
